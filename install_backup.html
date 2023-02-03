@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Install Guide // Rock Band 2 Deluxe</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="/style.css">
+	<meta property="og:image" content="https://rb2-deluxe.neocities.org/images/logo.png">
+	<meta property="og:image:type" content="image/png">
+	<meta name="twitter:text:title" content="The Band's All Back Together. A massive quality-of-life mod for Rock Band 2."> 
+	<meta name="twitter:card" content="summary_large_image">
+	<meta property="og:site_name" content="Rock Band 2 Deluxe">
+	<meta property="og:title" content="Install Guide">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://rb2-deluxe.neocities.org/install/">
+	<meta property="theme-color" content="#ac915f">
+
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#00aba9">
+</head>
+<body>
+<header>
+	<br><br><br>
+	<div class="usable-area"><a href="/"><img src="/images/logo.png" alt="Rock Band 2 Deluxe" id="logo"></a></div>
+</header>
+<nav>
+	<div class="usable-area">
+			<a href="/">Home</a> | 
+			<a href="/features">Features</a> | 
+			<a href="/media">Media</a> | 
+			<a href="/downloads">Downloads</a> |
+			<a href="/install">How to Install</a> | 
+	</div>
+</nav>
+<main>
+	<h2 style="text-align: center; color: #ac915f;">Installation Guide (this info is very outdated will fix -DD)</h2>
+	<h3>What You'll Need</h3>
+	<p>Playing <cite>Rock Band 2 Deluxe</cite> requires these things:</p>
+	<ul>
+		<li><strong>Either a modded console or an emulator</strong>
+			<ul>
+				<li>RPCS3 is the team's main testbed, so we know it works well on it. So long as your computer runs it well, it's a good choice.</li>
+				<li>Rock Band 2 Deluxe works on real PS3 Hardware on both CFW and HEN.</li>
+			</ul></li>
+		<li><strong>The North American release of <cite>Rock Band 2</cite></strong>
+			<ul>
+				<li>This will be serial <strong>BLUS30147</strong> for PS3 or title ID <strong>45410869</strong> for 360.</li>
+				<li>Other regions will not work! BLES versions of the game do not work.</li>
+			</ul></li>
+	</ul>
+	<p><cite>Rock Band 2 Deluxe</cite>, depending on platform, comes in either a .pkg file (which are used for PS3 game updates) or as a set of Xbox files, including a .xex file (Xbox executable) and a patch ARK/HDR (for 360). Depending on where you plan to play the game, you only need to follow one of the following sections.</p>
+
+	<h3>Installing on Emulator (RPCS3)</h3>
+	<ol>
+		<li>Install your North American copy of <cite>Rock Band 2</cite> through the emulator. The <a href="https://rpcs3.net/quickstart">official RPCS3 site covers this nicely</a>.
+			<ul>
+				<li>Remember, you <em>need</em> to be running BLUS30147. RPCS3 will tell you this in the game selection GUI under the Serial column.</li>
+			</ul></li>
+		<li>Drag the .pkg file and drag it into the game selection GUI. The game will update, and if you were running 1.00, you'll also get a nice <cite>Rock Band 2 Deluxe</cite> icon in the window to match.</li>
+	</ol>
+	<p>Double-click to run <cite>Deluxe</cite>.</p>
+
+	<h3>Installing on Hardware (PS3)</h3>
+	<ol>
+		<li>Install your vanilla copy of <cite>Rock Band 2</cite> to the console's hard drive.</li>
+		<li>FTP into your PS3, or use your preferred way to copy files onto the console's hard drive.</li>
+		<li>Drag the .pkg file into dev_hdd0/packages. That's dev_hdd0, and then you want to put the .pkg into the packages folder on dev_hdd0, your hard drive.</li>
+		<li>On your console, navigate to your Package Manager. Then go into Install Package Files > PS3 System Storage, and select the BLUS30147 update .pkg.</li>
+		<li>Install it.</li>
+	</ol>
+	<p>The next time you mount and run the game, it will be <cite>Rock Band 2 Deluxe</cite> instead of vanilla.</p>
+
+	<h3>Installing on Hardware (Xbox 360)</h3>
+	<ol>
+		<li>Install your vanilla copy of <cite>Rock Band 2</cite> to your console's hard drive.</li>
+		<li>FTP into your 360, or use your preferred way to copy files onto it.</li>
+		<li>In the Games folder, there should be a folder (probably named <cite>Rock Band 2</cite>) with a default.xex file and a gen folder in it. If you don't have that, the game isn't installed to the hard drive.</li>
+		<li>Rename the default.xex to default_retail.xex as a backup in case something goes wrong.</li>
+		<li>Drag in the default.xex you got from your <cite>Rock Band 2 Deluxe</cite> download. In the gen folder, Drag in the patch_xbox.hdr and patch_xbox_0.ark files from your Rock Band 2 Deluxe download.</li>
+	</ol>
+	<p>The next time you run the game, it will be <cite>Rock Band 2 Deluxe</cite> instead of vanilla.</p>
+	<p>Here's a video tutorial that covers all three platforms if you'd prefer that:</p>
+
+	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CuQMy7cHZMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: auto;"></iframe>
+
+</main>
+<footer>
+	<img src="/images/milohax.png" alt="MiloHax">
+	<p><cite>Rock Band 2</cite> &copy; 2008 Harmonix Music Systems. <cite>Rock Band 2 Deluxe</cite> is a fan project and is not affiliated with Harmonix, MTV Games, Fender, or EA.</p>
+</footer>
+</body>
+</html>
