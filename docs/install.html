@@ -4,14 +4,14 @@
 	<title>Installing - Rock Band 2 Deluxe</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
-	<meta property="og:image" content="https://rb2deluxe.neocities.org/images/embed.jpg">
+	<meta property="og:image" content="https://rb2dx.milohax.org/images/embed.jpg">
 	<meta property="og:image:type" content="image/png">
 	<meta name="twitter:text:title" content="The Band&#39;s All Back Together. A massive quality-of-life mod for Rock Band 2."> 
 	<meta name="twitter:card" content="summary_large_image">
 	<meta property="og:site_name" content="The Band&#39;s All Back Together.">
 	<meta property="og:title" content="Installing - Rock Band 2 Deluxe">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://rb2deluxe.neocities.org">
+	<meta property="og:url" content="https://rb2dx.milohax.org">
 	<meta property="theme-color" content="#ac915f">
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon.png">
@@ -30,7 +30,7 @@
 		<a href="https://rb3dx.neocities.org"><img src="images/social/rb3dx.svg" style="height:40px; padding-right: 19px;" title="Rock Band 3 Deluxe" alt="Rock Band 3 Deluxe" id="rb3dx"></a>
 		<a href="https://github.com/hmxmilohax/rock-band-2-deluxe"><img src="images/social/github.svg" style="height:40px; padding-right: 20px;" title="GitHub" alt="GitHub" id="github"></a>
 		<a href="https://x.com/hmxmilohax"><img src="images/social/twitter.svg" style="height:40px; padding-right: 20px;" title="Twitter" alt="Twitter" id="twitter"></a>
-		<a href="discord.html"><img src="images/social/discord.svg" style="height:40px; padding-right: 20px;" title="Discord" alt="Discord" id="twitter"></a>
+		<a href="https://discord.gg/milohax"><img src="images/social/discord.svg" style="height:40px; padding-right: 20px;" title="Discord" alt="Discord" id="twitter"></a>
 	</div>
 </header>
 <nav>
@@ -52,15 +52,65 @@
     <li><strong>360:</strong> 45410869 (USA)</li>
 </ul>
 
-<br>
-
-<h3>Find your platform of choice below...</h3>
+<h3></h3>
 
 <p><br> <br></p>
 
+<style>
+body {font-family: Arial;}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+</head>
+<body>
+
+<h2>Find your platform of choice below...</h2>
+<p>Select your platform.</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'RPCS3')">RPCS3</button>
+  <button class="tablinks" onclick="openCity(event, 'PS3')">PS3</button>
+  <button class="tablinks" onclick="openCity(event, 'Xbox 360')">Xbox 360</button>
+</div>
+
+<div id="RPCS3" class="tabcontent">
 <h2>Installing on PC, via <a href="https://rpcs3.net/">RPCS3</a></h2>
 
-    <p>Before you start, check out the <a href="https://github.com/carlmylo/rb3-pc#readme">Definitive RB3 PC Setup Guide</a>. This covers everything for RB3, but it should all apply to RB2, except online play stuff.</p>
+    <p>Before you start, check out the <a href="https://hmxmilohax.github.io/rb3-pc/english/intro/">Definitive RB3 PC Setup Guide</a>. This covers everything, and mainly focuses on RB3, but it mostly applies to RB2 as well.</p>
 
 <h3>Download <a href="downloads.html">Rock Band 2 Deluxe</a> if you haven't already</h3>
 
@@ -77,9 +127,9 @@
 <blockquote>
     <p>Rock on!</p>
 </blockquote>
+</div>
 
-<p><br> <br></p>
-
+<div id="PS3" class="tabcontent">
 <h2>Installing on PS3*</h2>
 
 <blockquote>
@@ -103,9 +153,9 @@
 <blockquote>
     <p>You can play the game using the original disc or via a backup on your hard drive. Rock on!</p>
 </blockquote>
+</div>
 
-<p><br> <br></p>
-
+<div id="Xbox 360" class="tabcontent">
 <h2>Installing on Xbox 360*</h2>
 
 <blockquote>
@@ -135,10 +185,6 @@
         <li><em>Rock Band 2 Deluxe <strong>rolls the latest one into its installation</strong>.</em></li>
         <li>If you've never played Rock Band 2 on your console, you don't need to do this.</li>
     </ul>
-    <li><strong>Clear your song cache</strong>.</li>
-    <ul>
-        <li>In the dashboard, navigate to <strong>System Settings &gt; Storage &gt; Rock Band 2</strong> and <strong>delete the song cache</strong>.</li>
-    </ul>
     <li><strong>Clear your system cache</strong>.</li>
     <ul>
         <li>In the dashboard, navigate to <strong>System Settings &gt; Storage</strong> and <strong>press <code>Y</code> to clear the system cache</strong>.</li>
@@ -154,14 +200,29 @@
 </ul>
 
 <h3>✅ <em>Rock Band 2 Deluxe is now installed and ready to play!</em></h3>
+</div>
 
-<blockquote>
-    <p>Don't forget to clear your song cache! Rock on!</p>
-</blockquote>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
 
 </main>
 <footer>
-	<a href="discord.html"><img src="images/milohax.png" alt="MiloHax"></a>
+	<a href="https://discord.gg/milohax"><img src="images/milohax.png" alt="MiloHax"></a>
 	<p><cite>Rock Band 2</cite> © 2008 Harmonix Music Systems. <cite>Rock Band 2 Deluxe</cite> is a fan project and is not affiliated with Harmonix, MTV Games, Fender, or EA.</p>
 </footer>
 </body>
