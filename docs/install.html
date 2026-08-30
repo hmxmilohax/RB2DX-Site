@@ -106,6 +106,7 @@ body {font-family: Arial;}
   <button class="tablinks" onclick="openCity(event, 'RPCS3')">RPCS3</button>
   <button class="tablinks" onclick="openCity(event, 'PS3')">PS3</button>
   <button class="tablinks" onclick="openCity(event, 'Xbox 360')">Xbox 360</button>
+  <button class="tablinks" onclick="openCity(event, 'PS2')">PS2 (Custom Edition)</button>
 </div>
 
 <div id="RPCS3" class="tabcontent">
@@ -200,6 +201,47 @@ body {font-family: Arial;}
 </ul>
 
 <h3>✅ <em>Rock Band 2 Deluxe is now installed and ready to play!</em></h3>
+</div>
+
+<div id="PS2" class="tabcontent">
+<h2>Installing on PS2 (Custom Edition)*</h2>
+
+<blockquote>
+    <p>*RB2DX requires a PS2 that runs backups (Free McBoot, FreeDVDBoot or a modchip) in order to run.</p>
+</blockquote>
+
+<h3>Download <a href="downloads.html">Rock Band 2 Deluxe (Custom Edition)</a> if you haven't already</h3>
+
+<p>Before you start, Custom Edition has no charts. You'll need to convert your own songs and build the PS2 disc using <a href="https://github.com/PhayMo/rb2dx-disc-builder/releases">RB2DX Disc Builder</a>.</p>
+
+<h3>Build the disc</h3>
+
+<ul>
+    <li>Extract the builder and run <code>RB2DX Disc Builder.exe</code>. <em>The first start takes a good twenty seconds while it unpacks itself, with nothing on screen until the window appears.</em></li>
+    <li>On the <strong>Setup</strong> page, fill in the folders it asks for, starting with the Custom Edition folder you extracted.</li>
+    <li>Press <strong>Download what's missing</strong> to fetch the tools, then select <code>ps2str.exe</code> in the list and use <strong>Locate the selected tool...</strong> to point at your own copy.</li>
+    <li>Add the folders your songs live in, then on the <strong>Songs</strong> page <strong>scan</strong> and tick what you want.</li>
+    <li>Once you are ready, go to the <strong>Build</strong> page and press <strong>Build the disc</strong>.</li>
+</ul>
+
+<h3>Playing it on a console</h3>
+
+<p>Copy the ISO to the console's hard drive or an MX4SIO SD card and launch it from Open PS2 Loader.</p>
+
+<h3>Playing it in PCSX2</h3>
+
+<p>PCSX2 will not boot the ISO the builder writes, though a real PS2 will, so have it save the disc's files and make the image with <a href="https://www.imgburn.com/">ImgBurn</a> instead:</p>
+
+<ul>
+    <li>Tick <strong>Also save the disc's files in a folder</strong>.</li>
+    <li>Set the file system to <strong>ISO9660 + UDF</strong> with <strong>UDF revision 1.02</strong>, then write the image and load it in PCSX2.</li>
+</ul>
+
+<h3>✅ <em>Rock Band 2 Deluxe is now installed and ready to play!</em></h3>
+
+<blockquote>
+    <p>Rock on!</p>
+</blockquote>
 </div>
 
 </div>
